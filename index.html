@@ -213,6 +213,47 @@
     </section>
 
   </main>
+<section id="agendar">
+  <div class="subtitulo">Agenda tu sesión</div>
+  <h3>Formulario de solicitud</h3>
+
+  <form action="https://formsubmit.co/maestradanys@outlook.com" method="POST">
+    
+    <label>Nombre completo:</label>
+    <input type="text" name="nombre" required style="width:100%; padding:10px; margin-bottom:12px;">
+
+    <label>Correo electrónico:</label>
+    <input type="email" name="correo" required style="width:100%; padding:10px; margin-bottom:12px;">
+
+    <label>WhatsApp:</label>
+    <input type="text" name="whatsapp" required style="width:100%; padding:10px; margin-bottom:12px;">
+
+    <label>Motivo de la consulta:</label>
+    <textarea name="motivo" rows="4" required style="width:100%; padding:10px; margin-bottom:12px;"></textarea>
+
+    <label>Disponibilidad:</label>
+    <select name="disponibilidad" required style="width:100%; padding:10px; margin-bottom:12px;">
+      <option>Mañana</option>
+      <option>Tarde</option>
+      <option>Noche</option>
+      <option>Fin de semana</option>
+    </select>
+
+    <button type="submit" style="
+      background:#7b4f9a; 
+      color:white; 
+      padding:12px 25px; 
+      border:none; 
+      border-radius:25px; 
+      font-size:1rem;
+      cursor:pointer;">
+      Enviar solicitud
+    </button>
+
+    <!-- Seguridad -->
+    <input type="hidden" name="_captcha" value="false">
+  </form>
+</section>
 
   <footer>
     &copy; 2026 Danys Robles Alcántara – Coaching premarital, de parejas y comunicación.
